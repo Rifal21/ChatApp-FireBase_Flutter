@@ -1,0 +1,43 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "chatapp_firebase",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "chatapp_firebase (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "chatapp_firebase (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "Redmi 5",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "37b8e7167d94"
+    },
+    {
+      "name": "M2003J15SC",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "195860d20402"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "All Device",
+      "configurations": ["Redmi 5", "M2003J15SC"]
+    }
+  ]
+}
